@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  margin: 2rem 0rem;
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+}
+div {
+  display: inline-block;
+}
+
+header h1{
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.25rem;
+}
+
+header h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+header h2{
+
+}
+
+header ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 2rem 0rem;
+  /* justify-content: flex-end; */
+}
+
+header ul li{
+  padding: .1rem;
+}
+
+body{
+  margin: 0 auto;
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer{
+  border-image:url("../img/hr-img.png");
+
+  background-repeat:repeat-x;
+  background-size: .5;
+  width: 100%
+}
+
