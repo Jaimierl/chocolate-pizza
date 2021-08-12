@@ -11,74 +11,151 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Yellowtail&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/222eeac602.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header>
     <nav>
+      <div>
       <img src="img/logo.png" alt="Vanessa Stevenson Headshot">
         <div>
           <h1>Delicious</h1>
           <h2>THE BEST FOOD BLOG ON THE WEB.</h2>
         </div>
+        </div>
 
-       <ul> 
-        <li><i class="fab fa-facebook"></i></li>
-        <li><i class="fab fa-twitter"></i></li>
-        <li><i class="fab fa-google-plus"></i></li>
-        <li><i class="fab fa-instagram"></i></li>
-        <li><i class="fab fa-flickr"></i></li>
-        <li><i class="fab fa-pinterest"></i></li>
-        <li><i class="fas fa-rss"></i></li>
-        <li><i class="far fa-envelope"></i></li>
-      </ul>
+       <div id="icons"> 
+        <span><i class="fab fa-facebook"></i></span>
+        <span><i class="fab fa-twitter"></i></span>
+        <span><i class="fab fa-google-plus"></i></span>
+        <span><i class="fab fa-instagram"></i></span>
+        <span><i class="fab fa-fspanckr"></i></span>
+        <span><i class="fab fa-pinterest"></i></span>
+        <div id="inside">
+        <span><i class="fas fa-rss"></i></span>
+        <span><i class="far fa-envelope"></i></span>
+        </div>
+       </div>
     </nav>
     
   </header>
+  <div class="gray_line">
 
+  </div>
   <main>
     <nav>
+      <div id="title">
       <h3>Chocolate Pizza</h3>
       <h4>POSTED ON 15 DEC 2013/DESSERTS</h4>
+      </div>
+      <div>
       <i class="fas fa-print"></i>
+      <div>
       <h4>PRINT</h4>
+      </div>
+    </div>
     </nav>
     <img src="img/choco-pizza.png" alt="Dessert Pizza Picture">
-    <p>
+
+    <div id="paragraph">
+    <p> <span class="tab"></span>
       For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely. 
-      <br>
-      Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Wisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled. 
-      <br>
-      Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for =/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass Tupperware. Freeze for at least two hours before serving. 
     </p>
-    <ul>
-      <li>1 1/2 cups milk</li>
-      <li>1/2 cup mascarpone</li>
-      <li>1/2 tsp pink salt</li>
-      <li>1 lb Black Mission Figs</li>
-      <li>1/2 cup brown sugar</li>
-      <li>2-4 tbsp water</li>
-      <li>1 1/2 cups heavy cream</li>
-      <li>1/3 granulated sugar</li>
-      <li>2 egg yolks</li>
-      <li>1 lemon, juiced</li>
-      <li>2 tbsp butter</li>
-      <li>1 cup honey roasted pecans, roughly chopped</li>
-    </ul>
-    <img src="img/list-bg.png" alt="Notebook Paper Background">
+      <p><br> <span class="tab"></span>
+      Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Wisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled. 
+    </p>
+    <p>
+      <br> <span class="tab"></span>
+      Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass Tupperware. Freeze for at least two hours before serving. 
+    </p>
+  </div>
+  <div id="paper">
+    <div class="list">
+      <label class='container'>
+        <input type = "checkbox">
+      <span class="checkmark"></span> 1 1/2 cups milk
+    </label>
+    <label class='container'>
+      <input type = "checkbox">
+    <span class="checkmark"></span> 1/2 cup mascarpone
+    </label>
+    <label class='container'>
+      <input type = "checkbox">
+    <span class="checkmark"></span> 1/2 tsp pink salt
+  </label>
+  <label class='container'>
+    <input type = "checkbox">
+  <span class="checkmark"></span> 1 lb Black Mission Figs
+  </label>
+  <label class='container'>
+    <input type = "checkbox">
+  <span class="checkmark"></span> 1/2 cup brown sugar
+  </label>
+  <label class='container'>
+    <input type = "checkbox">
+  <span class="checkmark"></span> 2-4 tbsp water
+  </label>
+  </label>
+    </div>
+      <div class="list">
+        <label class='container'>
+          <input type = "checkbox">
+        <span class="checkmark"></span> 1 1/2 cups heavy cream
+      </label>
+      <label class='container'id="strikethrough">
+        <input type = "checkbox">
+      <span class="checkmark"></span> 1/3 granulated sugar
+    </label>
+    <label class='container' id="strikethrough">
+      <input type = "checkbox">
+    <span class="checkmark"></span> 2 egg yolks
+  </label>
+  <label class='container'>
+    <input type = "checkbox">
+  <span class="checkmark"></span> 1 lemon, juiced
+</label>
+<label class='container'>
+  <input type = "checkbox">
+<span class="checkmark"></span> 2 tbsp butter
+</label>
+<label class='container'>
+  <input type = "checkbox">
+<span class="checkmark"></span> 1 cup honey roasted pecans, roughly chopped
+</label>
+      </div>
+  </div>
   </main>
 
+  <div class="gray_line2"></div>
   <footer>
+    <div id="footerDiv">
+    <div>
     <img src="img/van-pic.png" alt="Vanessa Stevenson Headshot">
-    <h6>Vanessa Stevenson</h6>
+    <div id="vanessa">
+    <h6><b>Vanessa Stevenson</b></h6>
     <p>Food enthusiast, photography fan. Add a punch of raw foodism and that’s pretty much who I am.</p>
-    <img src="img/small-logo.png" alt="Vanessa Stevenson Headshot">
+    </div>
+  </div>
+    <div id="button">
     <button type="button">SHARE RECIPE</button>
+  </div>
+  </div>
+<div id="smallFooterLogo"></div>
+
+
+<div id="footerText">
+  
+  <div>
+  
+  <img src = "img/small-logo.png" id="img" alt="small logo">
+</div>
     <p>Delicious © 2013 · All Rights Reserved. 
       <br>
       Proudly published with Ghost.
     </p>
+  </div>
   </footer>
 </body>
 </html>
